@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
         userInputTextView = findViewById(R.id.UserInputNumbersTextView);
         resultTextView = findViewById(R.id.resultText);
 
-        // Restore saved state (if any) when activity is recreated
         if (savedInstanceState != null) {
             userInputTextView.setText(savedInstanceState.getString(USER_INPUT_KEY));
             resultTextView.setText(savedInstanceState.getString(RESULT_KEY));
@@ -51,7 +50,6 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    // Save input and result before configuration change (e.g., orientation change)
     @Override
     protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
