@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NavBarApplication</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_fragment">Fragment</string>
+    <string name="menu_dialog">Dialog</string>
+    <string name="menu_exit">Exit</string>
+    <string name="menu_more_options">More Options</string>
+    <string name="menu_exit_submenu">Exit Submenu</string>
+</resources>

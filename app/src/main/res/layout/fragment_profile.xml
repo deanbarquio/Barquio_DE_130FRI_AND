@@ -1,0 +1,86 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:text="Profile"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="10sp"
+            android:textColor="@color/black"
+            android:text="Click Edit to Update Information"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/black"
+            android:text="Personal Information"/>
+
+        <!-- View-only Text Fields -->
+        <TextView
+            android:id="@+id/display_name"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:padding="8dp"
+            android:background="@drawable/field_radius"
+            android:text="Name: Dean Barquio"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/display_email"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/field_radius"
+            android:text="Email: dean@example.com"
+            android:textSize="18sp"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/display_gender"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:padding="8dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/field_radius"
+            android:text="Gender: Male"
+            android:textSize="18sp"
+            />
+
+        <TextView
+            android:id="@+id/display_terms"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/field_radius"
+            android:text="Terms Accepted: Yes"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:padding="8dp" />
+
+        <!-- Edit Button -->
+        <Button
+            android:id="@+id/button_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Edit" />
+    </LinearLayout>
+</ScrollView>

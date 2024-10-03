@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_calculator_item"
+        android:icon="@drawable/calculator"
+        android:title="Calculator" />
+    <item
+        android:id="@+id/nav_menu_item"
+        android:icon="@drawable/menu"
+        android:title="Menu" />
+    <item
+        android:id="@+id/nav_profile_item"
+        android:icon="@drawable/profile_nav"
+        android:title="Profile" />
+</menu>

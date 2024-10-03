@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:padding="8dp"
+        android:background="@drawable/field_radius"
+        android:hint="Edit Name" />
+
+    <EditText
+        android:id="@+id/edit_email"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:padding="8dp"
+        android:background="@drawable/field_radius"
+        android:hint="Edit Email" />
+
+    <!-- RadioGroup for Gender Selection -->
+    <RadioGroup
+        android:id="@+id/radio_group_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male" />
+
+        <RadioButton
+            android:id="@+id/radio_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female" />
+    </RadioGroup>
+
+    <!-- Checkbox for Accepting Terms -->
+    <CheckBox
+        android:id="@+id/edit_checkbox_terms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Accept Terms Conditions" />
+</LinearLayout>
